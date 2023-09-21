@@ -5,6 +5,12 @@
     margin-left: auto;
 
   }
+  .bckg {
+    background-image: url('https://images.unsplash.com/photo-1694540784497-ed3697d41952?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMDJ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60'); /* Update the image path */
+    background-size: cover;
+    background-position: center;
+    /* Add other background styles as needed */
+  }
   
   /* .img-container {
     border: 1px solid greenyellow;
@@ -38,7 +44,7 @@
   /* Adjust any other styles you need */
   .drag-image {
     border: 1px solid blue;
-    width: 250px;
+    width: 350px;
   }
   .drag-image >h4 {
     color: black;

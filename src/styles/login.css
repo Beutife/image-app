@@ -1,0 +1,32 @@
+/* login.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #acd2db; /* Set your desired background color */
+  }
+  
+  .login-box {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #7f73aa; /* Set your desired background color */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .g-btn {
+    width: 100%;
+    max-width: 200px;
+    margin: 10px auto;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .login-box {
+      max-width: 90%;
+    }
+  }
+  
