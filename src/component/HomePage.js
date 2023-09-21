@@ -30,10 +30,10 @@ const HomePage = ({ Images, userSignOut, authUser, Landing, Drag }) => {
               <Button
                 className="ms-3 button"
                 onClick={userSignOut}
-                variant="primary"
+                variant="secondary"
                 type="Submit"
               >
-                <Link to="/landing">Log Out</Link>
+                <Link to="/">Log in</Link>
               </Button>
             ) : 
             (
