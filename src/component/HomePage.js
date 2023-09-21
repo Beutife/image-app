@@ -33,7 +33,7 @@ const HomePage = ({ Images, userSignOut, authUser, Landing, Drag }) => {
                 variant="secondary"
                 type="Submit"
               >
-                <Link to="/">Log in</Link>
+                <Link to="/">Log Out</Link>
               </Button>
             ) : 
             (
